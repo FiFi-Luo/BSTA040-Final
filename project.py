@@ -6,7 +6,7 @@ from scipy.stats import expon
 import streamlit as st
 
 # Title of the project
-st.title('Influenza-like Illess from 2010 to 2025')
+st.title('Influenza-like Illness from 2010 to 2025')
 
 # Read in the csv file
 ilidata = pd.read_csv('https://raw.githubusercontent.com/FiFi-Luo/BSTA040-Final/refs/heads/main/ilidata.csv')
